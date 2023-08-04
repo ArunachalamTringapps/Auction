@@ -74,7 +74,7 @@ function Login() {
             </div>
             <div className='signinbutton'><button className='signin'>Sign in</button></div>
           </form>
-          <div className='createaccount'>Dont have an Account? <Link to="/register" className='link'>Register</Link></div>
+          <div >Dont have an Account?</div><Link to="/register-login" className='createaccount'>Register</Link>
         </div>
       </div>
       <div className='error'><ToastContainer limit={1} position={'top-right'} pauseOnHover={false} pauseOnFocusLoss={false} draggable={false} closeOnClick={false}/></div>

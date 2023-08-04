@@ -20,7 +20,7 @@ function App() {
       <Routes>
       <Route path='/' element={<Homepage/>}></Route>
       <Route path="/login" element={<Login/>}></Route>
-      <Route path="/register" element={<Register/>}></Route>
+      <Route path="/register-login" element={<Register/>}></Route>
       <Route path="/dashboard" element={<Admin/>}></Route>
       <Route path='/loading' element={<Loading/>}/>
       <Route path='/error' element={<ErrorPage/>}/>
